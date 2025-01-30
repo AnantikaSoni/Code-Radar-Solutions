@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+void main()
 {
     char c[100];
     char ch[100];
