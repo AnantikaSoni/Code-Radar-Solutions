@@ -2,6 +2,6 @@
 int main(){
     double n;
     scanf("%ld",n);
-    printf("You entered: %ld\n",n);
+    printf("You entered: %ld",n);
     return 0;
 }
