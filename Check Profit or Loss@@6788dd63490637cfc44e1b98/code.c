@@ -9,7 +9,7 @@ int main(){
         printf("Loss\n");
     }
     else{
-        printf("No Loss\n");
+        printf("No Profit/No Loss\n");
     }
     return 0;
 }
