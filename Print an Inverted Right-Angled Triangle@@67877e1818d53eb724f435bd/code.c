@@ -2,8 +2,11 @@
 int main(){
     int n;
     scanf("%d",&a);
-    for (int i =1;i<=n;i--){
-        printf("*\n");
+    for (int i = n;i > 0;i--){
+        for (int j=0; j < i;j++){
+            printf("*");
+        }
+        printf("\n");
     }
     return 0;
 }
