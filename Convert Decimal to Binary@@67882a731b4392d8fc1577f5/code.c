@@ -4,9 +4,9 @@ int main(){
     scanf("%d",&n);
     while(n){
         rem = n % 2;
-        n = n/2;
+        n = n / 2;
         bin = bin + (rem * place);
-        place =  place *10;
+        place = place * 10;
     }
     printf("%d\n",bin);
     return 0;
