@@ -1,8 +1,8 @@
 #include <stdio.h>
-int main()
-{
-    double n;
-    scanf("%lf",&n);
-    printf("You entered: %.4lf", n);
+int main(){
+    double d;
+    scanf("%lf",&d);
+    printf("You entered: %lf",d);
     return 0;
+
 }
