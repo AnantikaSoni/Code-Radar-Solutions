@@ -2,6 +2,6 @@
 int main(){
     float n,m;
     scanf("%f %f",%n,&m);
-    printf("Product: %.2f",n*m);
+    printf("Product: %.2f\n",n*m);
     return 0;
 }
